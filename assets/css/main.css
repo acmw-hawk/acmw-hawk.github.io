@@ -1,0 +1,27 @@
+.bg-light {
+  background-color: #d3edee !important;
+  color: #011c28 !important;
+}
+
+.event-card {
+  margin-top: 10px;
+}
+
+.fixed-top {
+  position: sticky;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.btn-primary {
+  background-color: #5590b4;
+  border-color: #5590b4;
+}
+
+.btn-primary:hover {
+  background-color: #325971;
+  border-color: #325971;
+}
