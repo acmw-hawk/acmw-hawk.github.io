@@ -1,10 +1,59 @@
-.bg-light {
-  background-color: #d3edee !important;
-  color: #011c28 !important;
+nav .navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: xxx-large;
+}
+
+nav .navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-light {
+  background-color: #ffffff;
+}
+
+.sub-header {
+  background-color: #2e273f;
+}
+
+.sub-header .nav-item a {
+  color: #D6D6D6;
+}
+
+.sub-header .active a {
+  color: #ffffff;
+}
+
+.sub-header .nav-item a:hover {
+  color: #ffffff;
+}
+
+.sub-header .navbar-toggler {
+  color: white;
 }
 
 .event-card {
   margin-top: 10px;
+}
+
+.contact-card {
+  margin-top: 10px;
+}
+
+.card-body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-body .card-title {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.contact-card img {
+  width: 50px;
+  margin: 10px;
+}
+
+.contact-card p {
+  margin: 0;
 }
 
 .fixed-top {
@@ -17,11 +66,44 @@
 }
 
 .btn-primary {
-  background-color: #5590b4;
-  border-color: #5590b4;
+  background-color: #09A8EC;
+  border-color: #09A8EC;
+  margin-right: 5px;
 }
 
 .btn-primary:hover {
-  background-color: #325971;
-  border-color: #325971;
+  background-color: #05628A;
+  border-color: #05628A;
 }
+
+.main-text {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px;
+  font-size: large;
+}
+
+.main-text div {
+  background-color: #FBB1C0;
+  color: #2e273f;
+  padding: 15px;
+  font-size: medium;
+}
+
+.main-text div h1,h2,h3,h4,h5,h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.main-text p {
+  margin: 10px 0 20px 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+}
+

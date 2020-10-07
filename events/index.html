@@ -8,86 +8,89 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?Montserrat:wght@400;600;700&display=swap&family=Open+Sans&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
 
-    <title>Events page</title>
+    <title>ACMW@IIT Contact</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <a class="navbar-brand" href="/">
-        <img src="../assets/images/logo.png" width="50" height="50" alt="lightbulb logo">
-        ACMW@IIT
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/events">Events</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>-->
-        </ul>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>-->
-      </div>
-    </nav>
+    <div class="navbar-container fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">
+          <img src="../assets/images/logo.png" width="70" height="70" alt="lightbulb logo">
+          ACM-W: Illinois Tech
+        </a>
+      </nav>
+  
+      <nav class="navbar navbar-expand-lg navbar-dark sub-header">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="container">
-      <!-- <div class="card flex-row flex-wrap" style="width: 18rem;">
-        <div class="card-header">
-          <img src="../assets/images/conference2.jpg" alt="Github commit history">
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Show and Tell with Linda Goldstein</h5>
-          <p class="card-text">Hear from ACMW alum Linda Goldstein about modern software development flow.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div> -->
       <div class="card event-card">
         <div class="card-horizontal">
             <div class="img-square-wrapper">
-                <img width="100%" class="" src="../assets/images/showandtell.png" alt="Github commit history">
+                <img width="100%" class="" src="../assets/images/eventphotos/showandtell.png" alt="Github commit history">
             </div>
             <div class="card-body">
                 <h4 class="card-title">Show and Tell with Linda Goldstein</h4>
                 <h6><i>October 15, 12:45-1:45pm</i></h6>
                 <p class="card-text">Hear from ACMW alum Linda Goldstein about modern software development flow.</p>
-                <a href="https://meet.google.com/mja-rcjy-cke" class="btn btn-primary">Join with Google Meet&trade;</a>
+                <div class="row">
+                  <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NXBtcHF1NXZuYTdpcnNoYjltdGVpdHMydWIgaWl0LmVkdV9paWZicXI1YXZxdmVvdm5nMzZqN2I5MjA3Y0Bn&amp;tmsrc=iit.edu_iifbqr5avqveovng36j7b9207c%40group.calendar.google.com" class="btn btn-primary">Add Event To Calendar</a>
+                  <a href="https://meet.google.com/mja-rcjy-cke" class="btn btn-primary">Join with Google Meet&trade;</a>
+                </div>
             </div>
         </div>
       </div>
       <div class="card event-card">
         <div class="card-horizontal">
-            <div class="img-square-wrapper">
-                <img width="100%" class="" src="../assets/images/energy.png" alt="Github commit history">
-            </div>
-            <div class="card-body">
-                <h4 class="card-title">Show and Tell with Sherrie Littlejohn</h4>
-                <h6><i>October 28, 12:45-1:45pm</i></h6>
-                <p class="card-text">Hear from ACMW alum Sherrie Littlejohn about navigating a career in energy leadership.</p>
-                <a href="https://zoom.us/j/92746014935?pwd=VHFEWWhXSW83NVBUN2NyQnBpUXdVQT09" class="btn btn-primary">Join with Zoom&trade;</a>
+          <div class="img-square-wrapper">
+              <img width="280px" class="" src="../assets/images/eventphotos/studynight.png" alt="Laptop and notebook graphic">
+          </div>
+          <div class="card-body">
+              <h4 class="card-title">Study and Chill With Us</h4>
+              <h6><i>October 18, 6-9pm</i></h6>
+              <p class="card-text">Bring a snack or hot drink and spend some time studying with us!</p>
+              <div class="row">
+                <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=NDNscjFsdHZrdmYzcHQ5bmNtOHNoOTY4aWUgaWl0LmVkdV9paWZicXI1YXZxdmVvdm5nMzZqN2I5MjA3Y0Bn&amp;tmsrc=iit.edu_iifbqr5avqveovng36j7b9207c%40group.calendar.google.com" class="btn btn-primary">Add Event To Calendar</a>
+                <a href="https://meet.google.com/rmh-enud-siv" class="btn btn-primary">Join with Google Meet&trade;</a>
+              </div>
             </div>
         </div>
-    </div>
+      </div>
+      <div class="card event-card">
+        <div class="card-horizontal">
+          <div class="img-square-wrapper">
+              <img width="100%" class="" src="../assets/images/eventphotos/energy.png" alt="Sun, solar panel, and lightbulb, with arrows in between">
+          </div>
+          <div class="card-body">
+              <h4 class="card-title">Show and Tell with Sherrie Littlejohn</h4>
+              <h6><i>October 28, 12:45-1:45pm</i></h6>
+              <p class="card-text">Hear from ACMW alum Sherrie Littlejohn about navigating a career in energy leadership.</p>
+              <div class="row">
+                <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MGg2amczMWs0YW0wdm04MmNhZXVyOWN0bTYgaWl0LmVkdV9paWZicXI1YXZxdmVvdm5nMzZqN2I5MjA3Y0Bn&amp;tmsrc=iit.edu_iifbqr5avqveovng36j7b9207c%40group.calendar.google.com" class="btn btn-primary">Add Event To Calendar</a>
+                <a href="https://zoom.us/j/92746014935?pwd=VHFEWWhXSW83NVBUN2NyQnBpUXdVQT09" class="btn btn-primary">Join with Zoom&trade;</a>
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
   
     <!-- Optional JavaScript -->
