@@ -69,6 +69,8 @@ nav .navbar-brand img {
   background-color: #09A8EC;
   border-color: #09A8EC;
   margin-right: 5px;
+  margin-bottom: 5px;
+  color: #000000;
 }
 
 .btn-primary:hover {
@@ -98,6 +100,15 @@ nav .navbar-brand img {
   margin: 10px 0 20px 0;
 }
 
+.main-text h2 {
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+
 .container-fluid {
   padding: 0;
 }
@@ -105,5 +116,9 @@ nav .navbar-brand img {
 .row {
   padding: 0;
   margin: 0;
+}
+
+.header-text {
+  display: none;
 }
 
