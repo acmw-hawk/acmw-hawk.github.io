@@ -122,3 +122,8 @@ nav .navbar-brand img {
   display: none;
 }
 
+
+.image-col {
+  display: grid;
+  align-content: center;
+}
