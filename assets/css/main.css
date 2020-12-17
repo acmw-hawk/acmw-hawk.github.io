@@ -47,6 +47,10 @@ nav .navbar-brand img {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.no-events {
+  text-align: center;
+}
+
 .contact-card img {
   width: 50px;
   margin: 10px;
@@ -126,4 +130,20 @@ nav .navbar-brand img {
 .image-col {
   display: grid;
   align-content: center;
+}
+
+.board-pic img {
+  width: 10rem;
+  margin: 0;
+}
+
+
+.board-pic {
+  width: 13rem;
+  padding: 10px;
+}
+
+.pics-container {
+  display: flex;
+  flex-wrap: wrap;
 }
