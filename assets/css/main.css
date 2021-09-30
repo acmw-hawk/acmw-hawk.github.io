@@ -51,6 +51,11 @@ nav .navbar-brand img {
   text-align: center;
 }
 
+.card-body.events {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-card img {
   width: 50px;
   margin: 10px;
